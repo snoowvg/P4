@@ -10,6 +10,7 @@ import { TelapetComponent } from './pet/telapet/telapet.component';
 import { TelaservicoComponent } from './pet/telaservico/telaservico.component';
 import { TelaemitirnotaComponent } from './pet/telaemitirnota/telaemitirnota.component';
 import { AddpetComponent } from './pet/telapet/addpet/addpet.component';
+import { AddracaComponent } from './pet/telapet/addpet/addraca/addraca.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AddpetComponent } from './pet/telapet/addpet/addpet.component';
     TelapetComponent,
     TelaservicoComponent,
     TelaemitirnotaComponent,
-    AddpetComponent
+    AddpetComponent,
+    AddracaComponent
   ],
   imports: [
     BrowserModule,
